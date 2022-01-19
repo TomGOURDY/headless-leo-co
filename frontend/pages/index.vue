@@ -1,6 +1,6 @@
 <template>
   <div>
-    Ici c'est un test
+    Ici c'est un test pd
     <Tutorial/>
     {{ articles }}
   </div>
