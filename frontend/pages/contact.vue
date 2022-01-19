@@ -1,12 +1,13 @@
 <template>
   <div>
-    Un utilisateur lambda
-    <Tutorial/>
+    contact
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  async asyncData (ctx) {
+    return {  }
+  },
 }
 </script>
