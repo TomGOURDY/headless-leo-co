@@ -17,6 +17,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxt/types": "~2.15.0"
+    "@nuxt/types": "~2.15.0",
+    "@nuxtjs/strapi": "^1.1.0"
   }
 }
