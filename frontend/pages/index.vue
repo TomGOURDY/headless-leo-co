@@ -2,6 +2,7 @@
   <div>
     Ici c'est un test
     <Tutorial/>
+    {{ articles }}
   </div>
 </template>
 
@@ -9,8 +10,9 @@
 
 export default {
   name: 'IndexPage',
-  async mounted () {
-    console.log(await this.$strapi.find('users'))
-  }
+  async asyncData (ctx) {
+    const articles = (await ctx.$strapi.find('articles'))
+    return { articles }
+  },
 }
 </script>
