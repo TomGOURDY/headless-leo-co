@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "@nuxt/types": "~2.15.0",
-    "@nuxtjs/strapi": "^1.1.0"
+    "@nuxtjs/strapi": "^0.3.5"
   }
 }
