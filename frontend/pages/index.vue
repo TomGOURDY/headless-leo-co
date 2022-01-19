@@ -6,7 +6,11 @@
 </template>
 
 <script>
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  async mounted () {
+    console.log(await this.$strapi.find('users'))
+  }
 }
 </script>
