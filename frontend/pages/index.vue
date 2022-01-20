@@ -1,8 +1,7 @@
 <template>
   <div>
     Ici c'est un test pd
-    <Tutorial/>
-    {{ articles }}
+    <UiButton raised>AAA</UiButton>
   </div>
 </template>
 
@@ -11,8 +10,7 @@
 export default {
   name: 'IndexPage',
   async asyncData (ctx) {
-    const articles = (await ctx.$strapi.find('articles'))
-    return { articles }
+    return {  }
   },
 }
 </script>
