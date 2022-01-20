@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "name": "Member"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "membre",
+        "president",
+        "vice_president",
+        "secretaire",
+        "tresorier",
+        "responsable_communication",
+        "responsable_partenariats",
+        "responsable_evenements"
+      ]
+    }
+  }
+}
