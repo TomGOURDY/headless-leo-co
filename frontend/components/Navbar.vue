@@ -54,13 +54,13 @@ export default {
   },
   methods: {
     onHomeClicked() {
-      alert("HOME")
+      this.$router.push({name: 'index'})
     },
     onFaceClicked() {
-      alert("Face")
+      this.$router.push({name: 'contact'})
     },
     onArticleClicked() {
-      alert("Article")
+      this.$router.push({name: 'articles'})
     }
   }
 }

@@ -1,129 +1,131 @@
 <template>
   <div>
-    <navbar></navbar>
-    <section class="hero" id="intro">
-      <h2 class="section-title">
-        Léo&Co une <span class="text-primary">association</span> qui oeuvre pour
-        les <span class="text-primary">animaux</span> et les défends
-      </h2>
-    </section>
-    <!-- End Section -->
-
-    <!-- Section -->
-    <section class="about-us">
-      <header class="about-us__intro">
+    <navbar content-id="#main-content"></navbar>
+    <main id="main-content">
+      <section class="hero" id="intro">
         <h2 class="section-title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sim
+          Léo&Co une <span class="text-primary">association</span> qui oeuvre pour
+          les <span class="text-primary">animaux</span> et les défends
         </h2>
-      </header>
-      <!-- about-us__body -->
-      <div class="about-us__body">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac
-          varius eros, eu congue eros. Sed gravida quis nisl ac dapibus. Morbi
-          convallis magna dictum mi imperdiet hendrerit. Integer hendrerit
-          sapien eget leo rutrum lobortis id sit amet tellus. Etiam ac dignissim
-          quam. Nullam cursus nunc et feugiat ultrices. Praesent imperdiet
-          consequat viverra
-        </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac
-          varius eros, eu congue eros. Sed gravida quis nisl ac dapibus. Morbi
-          convallis magna dictum mi imperdiet hendrerit. Integer hendrerit
-          sapien eget leo rutrum lobortis id sit amet tellus. Etiam ac dignissim
-          quam. Nullam cursus nunc et feugiat ultrices. Praesent imperdiet
-          consequat viverra
-        </p>
-      </div>
-      <!-- End about-us__body -->
-    </section>
+      </section>
+      <!-- End Section -->
 
-    <!-- Section -->
-    <div class="container" id="teammate">
-      <!-- <header>
-          <h2 class="section-title text-primary">Our magnificient team</h2>
-        </header> -->
+      <!-- Section -->
+      <section class="about-us">
+        <header class="about-us__intro">
+          <h2 class="section-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sim
+          </h2>
+        </header>
+        <!-- about-us__body -->
+        <div class="about-us__body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac
+            varius eros, eu congue eros. Sed gravida quis nisl ac dapibus. Morbi
+            convallis magna dictum mi imperdiet hendrerit. Integer hendrerit
+            sapien eget leo rutrum lobortis id sit amet tellus. Etiam ac dignissim
+            quam. Nullam cursus nunc et feugiat ultrices. Praesent imperdiet
+            consequat viverra
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac
+            varius eros, eu congue eros. Sed gravida quis nisl ac dapibus. Morbi
+            convallis magna dictum mi imperdiet hendrerit. Integer hendrerit
+            sapien eget leo rutrum lobortis id sit amet tellus. Etiam ac dignissim
+            quam. Nullam cursus nunc et feugiat ultrices. Praesent imperdiet
+            consequat viverra
+          </p>
+        </div>
+        <!-- End about-us__body -->
+      </section>
 
-      <!-- card -->
-      <div class="card">
-        <div class="bg-image">
-          <img src="../static/bg-profil.jpg" alt="background image" />
+      <!-- Section -->
+      <div class="container" id="teammate">
+        <!-- <header>
+            <h2 class="section-title text-primary">Our magnificient team</h2>
+          </header> -->
+
+        <!-- card -->
+        <div class="card">
+          <div class="bg-image">
+            <img src="../static/bg-profil.jpg" alt="background image" />
+          </div>
+          <div class="pic">
+            <img src="../static/animal1.jpeg" alt="" />
+          </div>
+          <div class="info">
+            <h3>Un chien bizarre</h3>
+            <span>Web designer</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
+              vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
+              elit. In non vulputate tort
+            </p>
+          </div>
         </div>
-        <div class="pic">
-          <img src="../static/animal1.jpeg" alt="" />
+        <!-- End card -->
+        <!-- card -->
+        <div class="card">
+          <div class="bg-image">
+            <img src="../static/bg-profil.jpg" alt="background image" />
+          </div>
+          <div class="pic">
+            <img src="../static/animal2.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h3>Tema le ponay</h3>
+            <span>Web designer</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
+              vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
+              elit. In non vulputate tort
+            </p>
+          </div>
         </div>
-        <div class="info">
-          <h3>Un chien bizarre</h3>
-          <span>Web designer</span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
-            vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
-            elit. In non vulputate tort
-          </p>
+        <!-- End card -->
+        <!-- card -->
+        <div class="card">
+          <div class="bg-image">
+            <img src="../static/bg-profil.jpg" alt="background image" />
+          </div>
+          <div class="pic">
+            <img src="../static/animal3.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h3>Quoi de neuf docteur</h3>
+            <span>Web designer</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
+              vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
+              elit. In non vulputate tort
+            </p>
+          </div>
         </div>
+        <!-- End card -->
+        <!-- card -->
+        <div class="card">
+          <div class="bg-image">
+            <img src="../static/bg-profil.jpg" alt="background image" />
+          </div>
+          <div class="pic">
+            <img src="../static/animal4.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h3>Bob Sinclair</h3>
+            <span>Web designer</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
+              vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
+              elit. In non vulputate tort
+            </p>
+          </div>
+        </div>
+        <!-- end card -->
       </div>
-      <!-- End card -->
-      <!-- card -->
-      <div class="card">
-        <div class="bg-image">
-          <img src="../static/bg-profil.jpg" alt="background image" />
-        </div>
-        <div class="pic">
-          <img src="../static/animal2.jpg" alt="" />
-        </div>
-        <div class="info">
-          <h3>Tema le ponay</h3>
-          <span>Web designer</span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
-            vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
-            elit. In non vulputate tort
-          </p>
-        </div>
-      </div>
-      <!-- End card -->
-      <!-- card -->
-      <div class="card">
-        <div class="bg-image">
-          <img src="../static/bg-profil.jpg" alt="background image" />
-        </div>
-        <div class="pic">
-          <img src="../static/animal3.jpg" alt="" />
-        </div>
-        <div class="info">
-          <h3>Quoi de neuf docteur</h3>
-          <span>Web designer</span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
-            vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
-            elit. In non vulputate tort
-          </p>
-        </div>
-      </div>
-      <!-- End card -->
-      <!-- card -->
-      <div class="card">
-        <div class="bg-image">
-          <img src="../static/bg-profil.jpg" alt="background image" />
-        </div>
-        <div class="pic">
-          <img src="../static/animal4.jpg" alt="" />
-        </div>
-        <div class="info">
-          <h3>Bob Sinclair</h3>
-          <span>Web designer</span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non
-            vulputate tortLorem ipsum dolor sit amet, consectetur adipiscing
-            elit. In non vulputate tort
-          </p>
-        </div>
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- End Section -->
-    <asso-footer> </asso-footer>
+      <!-- End Section -->
+      <asso-footer> </asso-footer>
+    </main>
   </div>
 </template>
 

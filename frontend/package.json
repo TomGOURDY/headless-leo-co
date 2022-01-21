@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/markdownit": "^2.0.0",
     "balm-ui": "^8.47.3",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
