@@ -1,18 +1,17 @@
 <template>
-  <div>
-    <header>
-      <AssoLogo></AssoLogo>
-      <nav>
-        <UiButton raised>Home</UiButton>
-        <UiButton raised>Blog</UiButton>
-        <UiButton raised>Contact</UiButton>
-      </nav>
-    </header>
-    <hr>
-  </div>
+  <UiTopAppBar :content-selector="contentId">
+    <template #nav-icon>
+      <asso-logo/>
+    </template>
+    <template #toolbar>
+      <UiIconButton icon="home" @click="onHomeClicked"/>
+      <UiIconButton icon="face" @click="onFaceClicked"/>
+      <UiIconButton icon="article" @click="onArticleClicked"/>
+    </template>
+  </UiTopAppBar>
 </template>
 
-<style>
+<style scoped>
 header {
   display: flex;
   flex-direction: row;
@@ -44,5 +43,25 @@ nav {
 }
 </style>
 
-
-
+<script>
+import AssoLogo from './AssoLogo.vue'
+export default {
+  components: { AssoLogo },
+  props: {
+    contentId: {
+      type: String
+    }
+  },
+  methods: {
+    onHomeClicked() {
+      alert("HOME")
+    },
+    onFaceClicked() {
+      alert("Face")
+    },
+    onArticleClicked() {
+      alert("Article")
+    }
+  }
+}
+</script>

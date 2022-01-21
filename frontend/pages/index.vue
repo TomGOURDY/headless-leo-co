@@ -10,8 +10,6 @@
 
 </style>
 
-</template>
-
 <script>
 import Navbar from '../components/Navbar.vue'
 import AssoFooter from '../components/AssoFooter.vue'

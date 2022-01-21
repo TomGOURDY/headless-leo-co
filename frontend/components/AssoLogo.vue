@@ -2,8 +2,8 @@
   <img src="../static/logo-leo-co.png" alt="Logo Léo & Co" class="nuxt-logo">
 </template>
 
-<style>
+<style scoped>
 .nuxt-logo {
-  height: 120px;
+  height: 64px;
 }
 </style>
